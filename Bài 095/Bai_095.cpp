@@ -9,16 +9,12 @@ int main()
 	cin >> n;
 
 	float s = 0;
-	int m = 0;
-	int i = 1;
-	int dau = 1;
+	int i = n;
 
-	while (i <= n)
+	while (i > 0)
 	{
-		m = m + i;
-		s = s + (float) dau / m;
-		i = i + 1;
-		dau = -dau;
+		s = sqrt(i + s);
+		i = i - 1;
 	}
 	cout << "s = " << s;
 	return 0;
