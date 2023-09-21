@@ -11,12 +11,11 @@ int main()
 	cout << "Nhap b: ";
 	cin >> b;
 
-	if (a < 0)
-		a = -a;
-	
-	if (b < 0)
-		b = -b;
+	float lc = a;
 
-	cout << "a = " << a << " va b = " << b;
+	if (lc < b)
+		lc = b;
+
+	cout << "lc = " << lc;
 	return 0;
 }
