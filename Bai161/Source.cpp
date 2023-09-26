@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -9,7 +9,8 @@ int main()
 
 	int flag = 1;
 	int t = n;
-	int dv, hc;
+	int dv;
+	int hc;
 
 	while (t >= 10)
 	{

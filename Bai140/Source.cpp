@@ -1,5 +1,5 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -17,7 +17,9 @@ int main()
 	cin >> c;
 
 	float delta = b * b - 4 * a * c;
-	float x, x1, x2;
+	float x;
+	float x1;
+	float x2;
 
 	if (delta <= 0)
 		if (delta == 0)
@@ -34,6 +36,6 @@ int main()
 		cout << "x1 = " << x1 << endl;
 		cout << "x2 = " << x2 << endl;
 	}
-	
+
 	return 0;
 }

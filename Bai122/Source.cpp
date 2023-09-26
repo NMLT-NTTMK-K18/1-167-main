@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -7,7 +7,8 @@ int main()
 	cout << "Nhap n: ";
 	cin >> n;
 
-	int ahh, bhh;
+	int ahh;
+	int bhh;
 	int at = 1;
 	int bt = 1;
 	int i = 2;

@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -12,7 +12,8 @@ int main()
 	cin >> y;
 
 	int n = x;
-	bool dk1, dk2;
+	bool dk1;
+	bool dk2;
 
 	while (n <= y)
 	{

@@ -1,30 +1,38 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
-	float xA, yA;
+	float xA;
 	cout << "Nhap xA: ";
 	cin >> xA;
+
+	float yA;
 	cout << "Nhap yA: ";
 	cin >> yA;
 
-	float xB, yB;
+	float xB;
 	cout << "Nhap xB: ";
 	cin >> xB;
+
+	float yB;
 	cout << "Nhap yB: ";
 	cin >> yB;
 
-	float xC, yC;
+	float xC;
 	cout << "Nhap xC: ";
 	cin >> xC;
+
+	float yC;
 	cout << "Nhap yC: ";
 	cin >> yC;
 
-	float xM, yM;
+	float xM;
 	cout << "Nhap xM: ";
 	cin >> xM;
+
+	float yM;
 	cout << "Nhap yM: ";
 	cin >> yM;
 
