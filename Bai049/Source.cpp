@@ -1,11 +1,12 @@
 #include <iostream>
-#include<iomanip>
+#include <iomanip>
 using namespace std;
 int main()
 {
-	cout << "Nhap n=";
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	int i = 1;
 	while (i <= n)
 	{
@@ -13,5 +14,6 @@ int main()
 			cout << setw(4) << i;
 		i = i + 1;
 	}
+
 	return 0;
 }

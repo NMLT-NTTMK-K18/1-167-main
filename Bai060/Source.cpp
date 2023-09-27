@@ -5,6 +5,7 @@ int main()
 	cout << "Nhap n=";
 	int n;
 	cin >> n;
+
 	int tich = 1;
 	int t = n;
 	while (t != 0)
@@ -12,8 +13,9 @@ int main()
 		int dv = t % 10;
 		tich = tich * dv;
 		t = t / 10;
-
 	}
-	cout << "tich cac chu so cua so nguyen duong "<<n<<" la:" << tich;
+
+	cout << "Tich cac chu so cua so nguyen duong " << n << " la: " << tich;
+
 	return 0;
 }

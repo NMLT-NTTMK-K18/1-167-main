@@ -1,14 +1,17 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 int main()
 {
-	cout << "Nhap x=";
+	cout << "Nhap x = ";
 	float x;
 	cin >> x;
-	cout << "Nhap n=";
+
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	float s = 0;
 	float t = 1;
 	int i = 1;
@@ -18,6 +21,8 @@ int main()
 		s = s + t;
 		i = i + 1;
 	}
-	cout << "s=" << s;
+
+	cout << "s = " << s;
+
 	return 0;
 }

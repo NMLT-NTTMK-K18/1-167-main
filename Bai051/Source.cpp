@@ -2,9 +2,10 @@
 using namespace std;
 int main()
 {
-	cout << "Nhap n=";
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	int t = 1;
 	int i = 1;
 	while (i <= n)
@@ -13,6 +14,8 @@ int main()
 			t = t * i;
 		i = i + 1;
 	}
-	cout << "t=" << t;
+
+	cout << "t = " << t;
+
 	return 0;
 }

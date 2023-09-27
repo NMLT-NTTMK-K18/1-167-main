@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-	cout << "Nhap n=";
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	float s = 0;
 	int m = 0;
 	int i = 1;
@@ -14,6 +16,8 @@ int main()
 		s = s + (float)1 / m;
 		i = i + 1;
 	}
-	cout << "s=" << s;
+
+	cout << "s = " << s;
+
 	return 0;
 }

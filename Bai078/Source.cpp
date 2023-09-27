@@ -2,12 +2,14 @@
 using namespace std;
 int main()
 {
-	cout << "Nhap x=";
+	cout << "Nhap x = ";
 	int x;
 	cin >> x;
-	cout << "Nhap n=";
+
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	int s = 1;
 	int t = 1;
 	int i = 1;
@@ -17,6 +19,8 @@ int main()
 		s = s + t;
 		i++;
 	}
-	cout << "s=" << s;
+
+	cout << "s = " << s;
+
 	return 0;
 }

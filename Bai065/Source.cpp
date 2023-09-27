@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-	cout << "nhap n=";
+	cout << "nhap n = ";
 	int n;
 	cin >> n;
+
 	int lc = n % 10;
 	int t = n;
 	while (t != 0)
@@ -14,6 +16,8 @@ int main()
 			lc = dv;
 		t = t / 10;
 	}
-	cout << "lc=" << lc;
+
+	cout << "lc = " << lc;
+
 	return 0;
 }

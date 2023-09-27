@@ -2,12 +2,14 @@
 using namespace std;
 int main()
 {
-	cout << "Nhap k=";
+	cout << "Nhap k = ";
 	int k;
 	cin >> k;
-	cout << "Nhap n=";
+
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
+
 	int s = 0;
 	int i = 1;
 	while (i <= n)
@@ -15,7 +17,8 @@ int main()
 		s = s + pow(i, k);
 		i = i + 1;
 	}
-	cout << "s=" << s;
+
+	cout << "s = " << s;
+
 	return 0;
 }
-    
