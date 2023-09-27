@@ -1,2 +1,5 @@
-list = [1] + list(range(84, 168))
-print(list)
+import os
+
+for i in range(1,168):
+    
+    os.chdir(f'Bai{i}')
