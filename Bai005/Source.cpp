@@ -9,8 +9,8 @@ int main()
 	float r;
 	cin >> r;
 
-	float v = 4 / 3 * M_PI * pow(r, 3);
-	cout << "The tich cua hinh cau=" << v;
+	float v = (float)4 / 3 * M_PI * pow(r, 3);
+	cout << "The tich cua hinh cau = " << v;
 
 	return 0;
 }
