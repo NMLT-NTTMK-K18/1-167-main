@@ -26,7 +26,7 @@ int main()
 	float b = sqrt(pow(x3 - x2, 2) + pow(y3 - y2, 2));
 	float c = sqrt(pow(x3 - x1, 2) + pow(y3 - y1, 2));
 	float p = a + b + c;
-	cout << "chu vi tam giac =" << p;
+	cout << "chu vi tam giac = " << p;
 
 	return 0;
 }

@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Nhap x=";
+	cout << "Nhap x = ";
 	float x;
 	cin >> x;
 
