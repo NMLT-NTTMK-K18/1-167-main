@@ -13,7 +13,7 @@ int main()
 
 	float s = 1 + x;
 	float t = x;
-	int m = 1;
+	float m = 1;
 	int i = 3;
 	while (i <= 2 * n + 1)
 	{
