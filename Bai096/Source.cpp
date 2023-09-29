@@ -1,5 +1,5 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -10,7 +10,7 @@ int main()
 
 	float s = 0;
 	int t = 1;
-	int i = n;
+	int i = 1;
 
 	while (i <= n)
 	{
